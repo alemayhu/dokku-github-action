@@ -1,6 +1,6 @@
-name: 'Dokku Github Action'
-description: 'Deploy applications to Dokku'
-author: 'Vitaly Liber'
+name: 'Fork of Dokku Github Action'
+description: 'For of Deploy applications to Dokku'
+author: 'Alexander Alemayhu'
 branding:
   icon: 'upload-cloud'  
   color: 'blue'
