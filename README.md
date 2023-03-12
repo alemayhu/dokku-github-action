@@ -1,3 +1,6 @@
+> **Warning**
+> This is a fork, please use the official one from vitaly https://github.com/vitalyliber/dokku-github-action
+
 # Dokku for GitHub Actions
 
 Deploy your App to the Dokku server.
@@ -24,7 +27,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Dokku deploy
-      uses: vitalyliber/dokku-github-action@v7.1
+      uses: alemayhu/dokku-github-action@v7.1
       env:
         PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
         HOST: ${{ secrets.HOST }}
