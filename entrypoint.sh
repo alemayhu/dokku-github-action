@@ -17,7 +17,7 @@ DEFAULT_BRANCH="$(git remote show origin | awk '/HEAD branch/ {print $NF}')"
 
 if [ -z "$DEFAULT_BRANCH" ]
 then
-    DEFAULT_BRANCH="master"
+    DEFAULT_BRANCH="main"
 fi
 
 echo "Default is $DEFAULT_BRANCH"
